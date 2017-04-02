@@ -8,3 +8,8 @@ nnoremap <S-Tab> <<_
 inoremap <S-Tab> <C-D>
 vnoremap <Tab> >gv
 vnoremap <S-Tab> <gv
+
+" disable shift-up/down
+" I never press these intentionally
+noremap <S-Up> <NOP>
+noremap <S-Down> <NOP>
