@@ -13,3 +13,7 @@ vnoremap <S-Tab> <gv
 " I never press these intentionally
 noremap <S-Up> <NOP>
 noremap <S-Down> <NOP>
+
+" disable F1 help and map it to ESC
+map <F1> <Esc>
+imap <F1> <Esc>
